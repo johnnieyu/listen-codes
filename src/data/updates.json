@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "title": "Listen.codes Weekly #1",
+    "date": "June 24, 2025",
+    "description": "Implemented **automatic dark mode detection** and manual toggle functionality. The site now adapts to user's system preferences and provides a seamless experience across different lighting conditions.\n\nUsers can now enjoy a *comfortable viewing experience* regardless of their environment.",
+    "type": "Update"
+  }
+] 

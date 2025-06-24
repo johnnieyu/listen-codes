@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Cohorts",
+    "year": "2025",
+    "description": "A tool to built for business diligence, delivering Listen-level insights to e-commerce businesses.",
+    "image": "/cohorts.png",
+    "link": "https://cohorts.listen.codes",
+    "collaboration": ""
+  },
+  {
+    "id": 2,
+    "title": "Thematics",
+    "year": "2025",
+    "description": "Microsite documenting active thematics that Listen is currently tracking and excited to back.",
+    "image": "/thematics.png",
+    "link": "https://thematics.listen.codes"
+  },
+  {
+    "id": 3,
+    "title": "Chat (Internal)",
+    "year": "2025",
+    "description": "A Listen chatbot enriched with Listen's library of research, notes, and analysis. Internal use only!",
+    "image": "/chat.png",
+    "link": "https://chat.listen.codes"
+  },
+  {
+    "id": 4,
+    "title": "Wiki (Internal)",
+    "year": "2025",
+    "description": "A Notion-like Wiki to manage our internal knowledgebase and to keep track of organization level SOPs.",
+    "image": "/wiki.png",
+    "link": "https://wiki.listen.codes"
+  }
+] 
