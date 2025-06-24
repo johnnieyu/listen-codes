@@ -3,7 +3,6 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import projectsData from '../data/projects.json';
-import { parseRichText, renderRichText } from '../utils/richTextParser';
 import { Post } from '../utils/mdxUtils';
 import ReactMarkdown from 'react-markdown';
 
