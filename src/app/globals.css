@@ -6,7 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  list-style-type: none;
+  /* list-style-type: none; */
 }
 
 ::-moz-selection {
@@ -68,6 +68,11 @@ h1,
 h2 {
   font-weight: 500;
   font-size: var(--type-size);
+}
+
+h4 {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .container {
@@ -403,7 +408,7 @@ h2 {
 }
 
 .update-content.open {
-  max-height: 500px;
+  max-height: 1000px;
   padding: 0 var(--padding) var(--padding);
 }
 
@@ -422,6 +427,20 @@ h2 {
   font-style: italic;
 }
 
+.update-description p {
+  margin-bottom: 0.75em;
+}
+
+.update-description li {
+  margin-bottom: 0.25em;
+}
+
+.update-description li::marker {
+  font-size: 1em;
+  margin-right: 0.75em;
+  padding-right: 0.5em;
+}
+
 .update-list {
   margin: 1.1em 0 1.1em 1.5em;
   padding: 0;
@@ -429,11 +448,19 @@ h2 {
 
 .update-description ul,
 .update-description ol {
-  margin: 1.1em 0 1.1em 1.5em;
-  padding: 0;
+  list-style-position: inside;
+  padding-left: 1em;
 }
 
 .update-description li {
+  margin-bottom: 0.25em;
+  margin-left: 1em;
+  padding-left: 1.5em;
+  text-indent: -1.5em;
+}
+
+.update-description p {
+  margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
 
@@ -684,4 +711,8 @@ hr {
   font-size: 0.8em;
   color: var(--secondary-color);
   margin-left: 0.4em;
+}
+
+ul {
+  margin-bottom: 1em;
 }
